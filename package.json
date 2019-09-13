@@ -1,0 +1,15 @@
+{
+  "name": "@eliasnorrby/prettier-config",
+  "version": "1.0.0",
+  "description": "my prettier config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config",
+    "prettier"
+  ],
+  "author": "eliasnorrby",
+  "license": "ISC"
+}
