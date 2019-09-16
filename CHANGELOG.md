@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/eliasnorrby/prettier-config/compare/v1.1.0...v1.2.0) (2019-09-16)
+
+
+### Features
+
+* **ci:** add publishConfig with access=public ([d47f3a7](https://github.com/eliasnorrby/prettier-config/commit/d47f3a7))
+
 # [1.1.0](https://github.com/eliasnorrby/prettier-config/compare/v1.0.0...v1.1.0) (2019-09-16)
 
 
