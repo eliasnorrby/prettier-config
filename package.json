@@ -1,6 +1,6 @@
 {
   "name": "@eliasnorrby/prettier-config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "My prettier config",
   "engines": {
     "node": ">=8"
@@ -13,7 +13,8 @@
   "bin": "setup.js",
   "main": "index.js",
   "scripts": {
-    "lint": "tsc"
+    "lint": "tsc",
+    "semantic-release": "semantic-release"
   },
   "keywords": [
     "config",
@@ -36,5 +37,10 @@
   },
   "peerDependencies": {
     "prettier": "^1.8.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
