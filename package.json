@@ -1,15 +1,34 @@
 {
   "name": "@eliasnorrby/prettier-config",
   "version": "1.0.0",
-  "description": "my prettier config",
+  "description": "My prettier config",
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "index.js",
+    "prettier.config.js",
+    "setup.js"
+  ],
+  "bin": "setup.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "tsc"
   },
   "keywords": [
     "config",
     "prettier"
   ],
-  "author": "eliasnorrby",
-  "license": "ISC"
+  "repository": "https://github.com/eliasnorrby/prettier-config",
+  "author": "Elias Norrby",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/prettier": "^1.18.2",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "peerDependencies": {
+    "prettier": "^1.8.2"
+  }
 }
