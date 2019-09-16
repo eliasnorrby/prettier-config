@@ -2,6 +2,7 @@
   "name": "@eliasnorrby/prettier-config",
   "version": "1.0.0",
   "description": "My prettier config",
+  "private": false,
   "engines": {
     "node": ">=8"
   },
