@@ -20,6 +20,17 @@ if (prettier && prettier.includes("eliasnorrby")) {
   console.log("Package saved");
 }
 
+const prettierignore = `\
+dist/
+build/
+coverage/
+node_modules/
+package*.json
+yarn-lock.json
+`;
+
+fs.writeFileSync(".prettierignore", prettierignore, "utf8");
+
 require("child_process").execSync(
   "npm install --save-dev @eliasnorrby/prettier-config",
   { stdio: "inherit" },
