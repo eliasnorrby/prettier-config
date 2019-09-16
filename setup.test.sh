@@ -5,7 +5,7 @@ set -exo pipefail;
 
 ORIG_DIR=$(pwd)
 function finish {
-    cd "$ORIG_DIR"
+  cd "$ORIG_DIR"
 }
 trap finish EXIT
 
@@ -14,8 +14,11 @@ npm init -y
 npx $ORIG_DIR
 ls -a
 
-echo "'prettier.config.js' should exist"
-[ -e "prettier.config.js" ]
+echo "'.prettierignore' contents"
+cat .prettierignore
 
 echo "'.prettierignore' should exist"
 [ -e ".prettierignore" ]
+
+echo "'@eliasnorrby/prettier-config' should be installed"
+[ -d "node_modules/@eliasnorrby/prettier-config" ]
