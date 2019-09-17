@@ -14,14 +14,11 @@ npm init -y
 npx $ORIG_DIR
 ls -a
 
-echo "'.prettierignore' contents"
-cat .prettierignore
+echo "'.prettierignore' should exist"
+[ -e ".prettierignore" ]
 
 echo "'.prettierignore' should have 7 lines"
 [ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 7 ]
-
-echo "'.prettierignore' should exist"
-[ -e ".prettierignore" ]
 
 echo "'@eliasnorrby/prettier-config' should be installed"
 [ -d "node_modules/@eliasnorrby/prettier-config" ]
