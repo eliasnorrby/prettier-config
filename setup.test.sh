@@ -17,6 +17,9 @@ ls -a
 echo "'.prettierignore' contents"
 cat .prettierignore
 
+echo "'.prettierignore' should have 6 lines"
+[ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 6 ]
+
 echo "'.prettierignore' should exist"
 [ -e ".prettierignore" ]
 
