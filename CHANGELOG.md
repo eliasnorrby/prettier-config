@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/eliasnorrby/prettier-config/compare/v1.3.0...v1.4.0) (2019-09-17)
+
+
+### Features
+
+* append to .prettierignore ([8096deb](https://github.com/eliasnorrby/prettier-config/commit/8096deb)), closes [#1](https://github.com/eliasnorrby/prettier-config/issues/1)
+
 # [1.3.0](https://github.com/eliasnorrby/prettier-config/compare/v1.2.0...v1.3.0) (2019-09-17)
 
 
