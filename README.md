@@ -1,6 +1,7 @@
 # Prettier Config
 
-[![Build Status](https://travis-ci.com/eliasnorrby/prettier-config.svg?branch=master)](https://travis-ci.com/eliasnorrby/prettier-config) ![npm (scoped)](https://img.shields.io/npm/v/@eliasnorrby/prettier-config)
+[![Build Status](https://travis-ci.com/eliasnorrby/prettier-config.svg?branch=master)](https://travis-ci.com/eliasnorrby/prettier-config)
+![npm (scoped)](https://img.shields.io/npm/v/@eliasnorrby/prettier-config)
 
 My prettier config. It's very close to the defaults, but enables trailing commas
 to improve git diffs.
@@ -9,17 +10,23 @@ to improve git diffs.
 
 # Setup
 
-## `npx`
+## Using `npx`
 
-Run the following command to install and configure prettier:
+Run the following command to install and configure prettier
 
 ```sh
 npx @eliasnorrby/prettier-config
 ```
 
+This will run a setup script, adding this package to `devDependencies`,
+populating the "prettier" field in `package.json` and writing some defaults to
+`.prettierignore`.
+
+:warning: An existing `.prettierignore` will be overwritten.
+
 ## Manual
 
-Install the package:
+Install the package
 
 ```sh
 npm i -D @eliasnorrby/prettier-config
@@ -39,4 +46,16 @@ module.exports = require("@eliasnorrby/prettier-config");
 {
   "prettier": "@eliasnorrby/prettier-config"
 }
+```
+
+# Overriding settings
+
+Overriding settings requires the use of a `prettier.config.js` or
+`.prettierrc.js`:
+
+```js
+module.exports = {
+  ...require("@eliasnorrby/prettier-config"),
+  semi: false,
+};
 ```
