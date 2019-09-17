@@ -21,6 +21,7 @@ if (prettier && prettier.includes("eliasnorrby")) {
 }
 
 const prettierignore = `\
+# Added by @eliasnorrby/prettier-config
 dist/
 build/
 coverage/
@@ -29,7 +30,9 @@ package*.json
 yarn-lock.json
 `;
 
-fs.writeFileSync(".prettierignore", prettierignore, "utf8");
+if (!fs.existsSync(".prettierignore"))
+  fs.writeFileSync(".prettierignore", prettierignore, "utf8");
+else fs.appendFileSync(".prettierignore", "\n" + prettierignore, "utf8");
 
 require("child_process").execSync(
   "npm install --save-dev @eliasnorrby/prettier-config",
