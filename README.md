@@ -20,9 +20,8 @@ npx @eliasnorrby/prettier-config
 
 This will run a setup script, adding this package to `devDependencies`,
 populating the "prettier" field in `package.json` and writing some defaults to
-`.prettierignore`.
-
-:warning: An existing `.prettierignore` will be overwritten.
+`.prettierignore`. Entries will be appended if a `.prettierignore` already
+exists.
 
 ## Manual
 
