@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/eliasnorrby/prettier-config/compare/v1.2.0...v1.3.0) (2019-09-17)
+
+
+### Features
+
+* add prettierignore in setup script ([f537470](https://github.com/eliasnorrby/prettier-config/commit/f537470))
+
 # [1.2.0](https://github.com/eliasnorrby/prettier-config/compare/v1.1.0...v1.2.0) (2019-09-16)
 
 
