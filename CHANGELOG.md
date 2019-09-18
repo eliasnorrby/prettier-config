@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/eliasnorrby/prettier-config/compare/v1.4.0...v1.5.0) (2019-09-18)
+
+
+### Features
+
+* install peer dependencies during setup ([973576a](https://github.com/eliasnorrby/prettier-config/commit/973576a))
+
 # [1.4.0](https://github.com/eliasnorrby/prettier-config/compare/v1.3.0...v1.4.0) (2019-09-17)
 
 
