@@ -23,6 +23,9 @@ echo "'.prettierignore' should have 7 lines"
 echo "'@eliasnorrby/prettier-config' should be installed"
 [ -d "node_modules/@eliasnorrby/prettier-config" ]
 
+echo "'prettier' should be installed"
+[ -d "node_modules/prettier" ]
+
 cat <<EOF > .prettierignore
 ignored-file
 node_modules/
