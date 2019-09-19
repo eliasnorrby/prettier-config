@@ -10,7 +10,6 @@
   },
   "files": [
     "index.js",
-    "prettier.config.js",
     "setup.js"
   ],
   "bin": "setup.js",
