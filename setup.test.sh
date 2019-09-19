@@ -20,11 +20,20 @@ echo "'.prettierignore' should exist"
 echo "'.prettierignore' should have 7 lines"
 [ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 7 ]
 
+echo "'prettier.config.js' should exist"
+[ -e "prettier.config.js" ]
+
 echo "'@eliasnorrby/prettier-config' should be installed"
 [ -d "node_modules/@eliasnorrby/prettier-config" ]
 
 echo "'prettier' should be installed"
 [ -d "node_modules/prettier" ]
+
+echo "format script should exist"
+npm run format
+
+echo "checkFormat script should exist"
+npm run checkFormat
 
 cat <<EOF > .prettierignore
 ignored-file
