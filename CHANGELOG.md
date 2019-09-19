@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/eliasnorrby/prettier-config/compare/v1.5.0...v1.5.1) (2019-09-19)
+
+
+### Performance Improvements
+
+* remove unused file from package ([c12058f](https://github.com/eliasnorrby/prettier-config/commit/c12058f))
+
 # [1.5.0](https://github.com/eliasnorrby/prettier-config/compare/v1.4.0...v1.5.0) (2019-09-18)
 
 
