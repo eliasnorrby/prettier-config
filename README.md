@@ -1,7 +1,7 @@
 # Prettier Config
 
-[![Build Status](https://travis-ci.com/eliasnorrby/prettier-config.svg?branch=master)](https://travis-ci.com/eliasnorrby/prettier-config)
-[![npm (scoped)](https://img.shields.io/npm/v/@eliasnorrby/prettier-config)](https://www.npmjs.com/package/@eliasnorrby/prettier-config)
+[![Travis](https://img.shields.io/travis/com/eliasnorrby/prettier-config?style=for-the-badge)](https://travis-ci.com/eliasnorrby/prettier-config)
+[![npm](https://img.shields.io/npm/v/@eliasnorrby/prettier-config?style=for-the-badge)](https://www.npmjs.com/package/@eliasnorrby/prettier-config)
 
 My prettier config. It's very close to the defaults, but enables trailing commas
 to improve git diffs.
@@ -23,7 +23,7 @@ populating the "prettier" field in `package.json` and writing some defaults to
 `.prettierignore`. Entries will be appended if a `.prettierignore` already
 exists.
 
-## Manual
+## Manually
 
 Install the package
 
