@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/eliasnorrby/prettier-config/compare/v1.5.1...v2.0.0) (2019-09-19)
+
+
+### Code Refactoring
+
+* **setup:** write config to prettier.config.js ([7d6e2e0](https://github.com/eliasnorrby/prettier-config/commit/7d6e2e0))
+
+
+### BREAKING CHANGES
+
+* **setup:** Use prettier.config.js instead of package.json for configuration.
+
+Also features style improvements to setup.js.
+
 ## [1.5.1](https://github.com/eliasnorrby/prettier-config/compare/v1.5.0...v1.5.1) (2019-09-19)
 
 
