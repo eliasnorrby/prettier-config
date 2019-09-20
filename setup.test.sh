@@ -17,8 +17,8 @@ ls -a
 echo "'.prettierignore' should exist"
 [ -e ".prettierignore" ]
 
-echo "'.prettierignore' should have 7 lines"
-[ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 7 ]
+echo "'.prettierignore' should have 8 lines"
+[ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 8 ]
 
 echo "'prettier.config.js' should exist"
 [ -e "prettier.config.js" ]
@@ -43,5 +43,5 @@ EOF
 npx $ORIG_DIR
 
 echo "should not overwrite existing '.prettierignore'"
-echo "'.prettierignore' should have 10 lines"
-[ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 10 ]
+echo "'.prettierignore' should have 11 lines"
+[ "$(wc -l .prettierignore | cut -d ' ' -f1)" -eq 11 ]

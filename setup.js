@@ -28,6 +28,7 @@ coverage/
 node_modules/
 package*.json
 yarn-lock.json
+CHANGELOG.md
 `,
 };
 
