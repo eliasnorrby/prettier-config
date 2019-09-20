@@ -18,7 +18,7 @@ const CONFIG_FILES = {
 module.exports = {
   ...require("${packageName}"),
   // Override rules here
-}
+};
 `,
   ".prettierignore": `\
 # Added by ${packageName}
