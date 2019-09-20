@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/eliasnorrby/prettier-config/compare/v2.1.0...v2.1.1) (2019-09-20)
+
+
+### Bug Fixes
+
+* add CHANGELOG.md to .prettierignore ([8bd61b2](https://github.com/eliasnorrby/prettier-config/commit/8bd61b2))
+
 # [2.1.0](https://github.com/eliasnorrby/prettier-config/compare/v2.0.0...v2.1.0) (2019-09-20)
 
 
