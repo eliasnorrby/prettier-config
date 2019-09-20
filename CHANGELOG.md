@@ -1,3 +1,15 @@
+# [2.1.0](https://github.com/eliasnorrby/prettier-config/compare/v2.0.0...v2.1.0) (2019-09-20)
+
+
+### Bug Fixes
+
+* **deps:** relax peer dependency reqs ([3803da4](https://github.com/eliasnorrby/prettier-config/commit/3803da4))
+
+
+### Features
+
+* **scripts:** rename checkFormat -> check-format ([aefa694](https://github.com/eliasnorrby/prettier-config/commit/aefa694))
+
 # [2.0.0](https://github.com/eliasnorrby/prettier-config/compare/v1.5.1...v2.0.0) (2019-09-19)
 
 
