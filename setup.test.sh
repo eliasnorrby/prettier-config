@@ -33,7 +33,7 @@ echo "format script should exist"
 npm run format
 
 echo "checkFormat script should exist"
-npm run checkFormat
+npm run check-format
 
 cat <<EOF > .prettierignore
 ignored-file

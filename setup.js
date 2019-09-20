@@ -76,7 +76,7 @@ const PRETTIER_FILE_EXTENSIONS = [
 const targetFilesGlob = `**/*.{${PRETTIER_FILE_EXTENSIONS.join(",")}}`;
 const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 pkg.scripts = pkg.scripts || {};
-pkg.scripts.checkFormat = `prettier --list-different '${targetFilesGlob}'`;
+pkg.scripts["check-format"] = `prettier --list-different '${targetFilesGlob}'`;
 pkg.scripts.format = `prettier --write '${targetFilesGlob}'`;
 log("Writing scripts to package.json");
 fs.writeFileSync("package.json", JSON.stringify(pkg, null, 2));
