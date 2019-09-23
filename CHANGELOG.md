@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/eliasnorrby/prettier-config/compare/v2.1.1...v2.1.2) (2019-09-23)
+
+
+### Bug Fixes
+
+* **ci:** publish proper releases ([a2778f7](https://github.com/eliasnorrby/prettier-config/commit/a2778f7))
+
 ## [2.1.1](https://github.com/eliasnorrby/prettier-config/compare/v2.1.0...v2.1.1) (2019-09-20)
 
 
