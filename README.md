@@ -18,8 +18,8 @@ Run the following command to install and configure prettier
 npx @eliasnorrby/prettier-config
 ```
 
-This will run a setup script, adding this package to `devDependencies`,
-populating the "prettier" field in `package.json` and writing some defaults to
+This will run a setup script, adding this package to `devDependencies`, writing
+the config to `prettier.config.js` and writing some defaults to
 `.prettierignore`. Entries will be appended if a `.prettierignore` already
 exists.
 
