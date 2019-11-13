@@ -45,5 +45,8 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "dependencies": {
+    "yargs": "^14.2.0"
   }
 }
