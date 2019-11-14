@@ -10,7 +10,8 @@
   },
   "files": [
     "index.js",
-    "setup.js"
+    "setup.js",
+    ".prettierignore"
   ],
   "bin": "setup.js",
   "main": "index.js",
