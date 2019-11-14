@@ -1,8 +1,13 @@
 #!/usr/bin/env node
 // Credit: https://github.com/Graham42/prettier-config/blob/master/setup.js
-const yargs = require("yargs");
 const path = require("path");
 const fs = require("fs");
+const chalk = require("chalk");
+const yargs = require("yargs");
+const hasYarn = require("has-yarn")();
+
+const pkgInstall = hasYarn ? "yarn add" : "npm install";
+const pkgInstallDev = `${pkgInstall} -D`;
 
 yargs
   .alias("v", "version")
@@ -20,7 +25,17 @@ yargs
 
 const argv = yargs.argv;
 
-const log = msg => console.log(">> \x1b[36m%s\x1b[0m", msg);
+// Set up logging methods
+const log = {
+  info: msg =>
+    console.log(`${chalk.bgGreen.black(" INFO ")} ${chalk.green(msg)}`),
+  warn: msg =>
+    console.log(`${chalk.bgYellow.black(" WARN ")} ${chalk.yellow(msg)}`),
+  skip: msg => console.log(`${chalk.bgGray(" SKIP ")} ${msg}`),
+  error: msg =>
+    console.log(`${chalk.bgRed.black(" ERROR ")} ${chalk.red(msg)}`),
+};
+
 const packageName = "@eliasnorrby/prettier-config";
 
 if (!fs.existsSync("package.json")) {
@@ -61,10 +76,10 @@ const failedToWrite = {};
 
 Object.entries(CONFIG_FILES).forEach(([fileName, contents]) => {
   if (!fs.existsSync(fileName)) {
-    log(`Writing ${fileName}`);
+    log.info(`Writing ${fileName}`);
     fs.writeFileSync(fileName, contents, "utf8");
   } else {
-    log(`${fileName} already exists`);
+    log.skip(`${fileName} already exists`);
     failedToWrite[fileName] = true;
   }
 });
@@ -72,7 +87,7 @@ Object.entries(CONFIG_FILES).forEach(([fileName, contents]) => {
 // Append to .prettierignore if it exists
 const ignorefilename = ".prettierignore";
 if (failedToWrite[ignorefilename]) {
-  log(`Appending to ${ignorefilename}`);
+  log.info(`Appending to ${ignorefilename}`);
   fs.appendFileSync(
     ignorefilename,
     "\n" + CONFIG_FILES[ignorefilename],
@@ -104,21 +119,21 @@ const pkg = JSON.parse(fs.readFileSync("package.json", "utf8"));
 pkg.scripts = pkg.scripts || {};
 pkg.scripts["check-format"] = `prettier --list-different '${targetFilesGlob}'`;
 pkg.scripts.format = `prettier --write '${targetFilesGlob}'`;
-log("Writing scripts to package.json");
+log.info("Writing scripts to package.json");
 fs.writeFileSync("package.json", JSON.stringify(pkg, null, 2));
 
-log("Installing peer dependencies (prettier)");
-require("child_process").execSync("npm install --save-dev prettier", {
+log.info("Installing peer dependencies (prettier)");
+require("child_process").execSync(`${pkgInstallDev} prettier`, {
   stdio: "inherit",
 });
 
 if (argv.install) {
-  log(`Installing self (${packageName})`);
-  require("child_process").execSync(`npm install --save-dev ${packageName}`, {
+  log.info(`Installing self (${packageName})`);
+  require("child_process").execSync(`${pkgInstallDev} ${packageName}`, {
     stdio: "inherit",
   });
 } else {
-  log("Skipping install of self");
+  log.skip("Skipping install of self");
 }
 
-log("Done!");
+log.info("Done!");
