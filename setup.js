@@ -1,9 +1,27 @@
 #!/usr/bin/env node
 // Credit: https://github.com/Graham42/prettier-config/blob/master/setup.js
+const yargs = require("yargs");
+
+yargs
+  .alias("v", "version")
+  .usage("Usage: $0 [options]")
+  .help("h")
+  .alias("h", "help")
+  .option("i", {
+    describe: "Install this package",
+    type: "boolean",
+    alias: "install",
+    default: true,
+  })
+  .describe("no-install", "Skip installing this package")
+  .strict(true);
+
+const argv = yargs.argv;
 
 const log = msg => console.log(">> \x1b[36m%s\x1b[0m", msg);
 const packageName = "@eliasnorrby/prettier-config";
 
+const path = require("path");
 const fs = require("fs");
 if (!fs.existsSync("package.json")) {
   console.error(
@@ -12,24 +30,31 @@ if (!fs.existsSync("package.json")) {
   process.exit(1);
 }
 
-// Write prettier config files
-const CONFIG_FILES = {
-  "prettier.config.js": `\
+const ignoredFiles = fs.readFileSync(
+  path.resolve(__dirname, ".prettierignore"),
+  "utf8",
+);
+const header = argv.install ? `# Added by ${packageName}` : "";
+const prettierignore = `\
+${header}
+${ignoredFiles}`;
+
+const prettierconfig = argv.install
+  ? `\
 module.exports = {
   ...require("${packageName}"),
   // Override rules here
-};
-`,
-  ".prettierignore": `\
-# Added by ${packageName}
-dist/
-build/
-coverage/
-node_modules/
-package*.json
-yarn-lock.json
-CHANGELOG.md
-`,
+};`
+  : `\
+module.exports = {
+  trailingComma: "all",
+  // Add rules here
+}`;
+
+// Config files to write
+const CONFIG_FILES = {
+  "prettier.config.js": prettierconfig,
+  ".prettierignore": prettierignore,
 };
 
 const failedToWrite = {};
@@ -87,7 +112,13 @@ require("child_process").execSync("npm install --save-dev prettier", {
   stdio: "inherit",
 });
 
-log(`Installing self (${packageName})`);
-require("child_process").execSync(`npm install --save-dev ${packageName}`, {
-  stdio: "inherit",
-});
+if (argv.install) {
+  log(`Installing self (${packageName})`);
+  require("child_process").execSync(`npm install --save-dev ${packageName}`, {
+    stdio: "inherit",
+  });
+} else {
+  log("Skipping install of self");
+}
+
+log("Done!");
