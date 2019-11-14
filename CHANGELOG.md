@@ -1,3 +1,15 @@
+# [2.2.0](https://github.com/eliasnorrby/prettier-config/compare/v2.1.2...v2.2.0) (2019-11-14)
+
+
+### Bug Fixes
+
+* add prettierignore to published files ([7f15812](https://github.com/eliasnorrby/prettier-config/commit/7f15812))
+
+
+### Features
+
+* add --no-install option ([eb62604](https://github.com/eliasnorrby/prettier-config/commit/eb62604)), closes [#6](https://github.com/eliasnorrby/prettier-config/issues/6)
+
 ## [2.1.2](https://github.com/eliasnorrby/prettier-config/compare/v2.1.1...v2.1.2) (2019-09-23)
 
 
