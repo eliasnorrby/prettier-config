@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/eliasnorrby/prettier-config/compare/v2.3.0...v2.4.0) (2019-11-14)
+
+
+### Features
+
+* improve script logging ([f75a3c2](https://github.com/eliasnorrby/prettier-config/commit/f75a3c2))
+
 # [2.3.0](https://github.com/eliasnorrby/prettier-config/compare/v2.2.0...v2.3.0) (2019-11-14)
 
 
