@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // Credit: https://github.com/Graham42/prettier-config/blob/master/setup.js
 const yargs = require("yargs");
+const path = require("path");
+const fs = require("fs");
 
 yargs
   .alias("v", "version")
@@ -21,8 +23,6 @@ const argv = yargs.argv;
 const log = msg => console.log(">> \x1b[36m%s\x1b[0m", msg);
 const packageName = "@eliasnorrby/prettier-config";
 
-const path = require("path");
-const fs = require("fs");
 if (!fs.existsSync("package.json")) {
   console.error(
     "No package.json found in the current directory. Make sure you are in the project root. If no package.json exists yet, run `npm init` first.",
