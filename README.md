@@ -23,6 +23,12 @@ the config to `prettier.config.js` and writing some defaults to
 `.prettierignore`. Entries will be appended if a `.prettierignore` already
 exists.
 
+### `--no-install`
+
+Run setup with the `--no-install` flag to avoid installing this package as a
+dependency. Your `pretter.config.js` will contain a sample rule for you to add
+to instead of extending this package.
+
 ## Manually
 
 Install the package
