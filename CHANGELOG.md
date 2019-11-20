@@ -1,3 +1,10 @@
+## [2.4.1](https://github.com/eliasnorrby/prettier-config/compare/v2.4.0...v2.4.1) (2019-11-20)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump https-proxy-agent from 2.2.2 to 2.2.4 ([1f9bbd0](https://github.com/eliasnorrby/prettier-config/commit/1f9bbd0))
+
 # [2.4.0](https://github.com/eliasnorrby/prettier-config/compare/v2.3.0...v2.4.0) (2019-11-14)
 
 
