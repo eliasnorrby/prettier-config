@@ -22,3 +22,5 @@ notifications:
       - secure: eX7rM48TeCRx9vJf9lZ8ZdNRNTYbJNP9hgyDBUemurUX4G24QTEuVs4gRWNSy6cmQrS188FpMooSi7vlLnF8sjHbUx8lmhCoIt4eW0Kv9e2O1LbtONnrBrIB7yF/IOuNQuKdGbyj7tcXBVyDD9sbceSbPiEPoR/q99fphaHmHRxvmZXLwFW5nYw3/2tJKMeP79Fcr/F7FUFznHoWciqibMnlIxNJkqKhzC/LiAQXuhiT4SWeoEt6/k1cunXWWTNwk7fWQffgnoHxo0K/c8FFhYKPDNI4hJX2hkBWZPWJMxTKCAQJnOyvaXph0WXn8vS8e4pgjW5Qi2K4uS3acoeB3uz/sVENcG6W3arAz5DGeSlwK84fLLRsxmV60qmrUW+v8S+zFap52ZZa2oA+++pxQHiZL9SkicKZSLr6dZWwDBrnTWF9sEy4Rtn1TsUYkdhJfkvyt6ejMvQsXRxhefqzP1KAw3xK4DT22fxxFe1Yx8q6KBfIyR35bJgd9K0cVAR9bEOun1oRzfVEVTGYg3wVBkdHOY7+mrSvvssWiDcvvtNwODAFSAqPf9elqM6KlltWr9b9DWQiTTXiJ2zOVM3Fqx40iac4p4kVai2e/CU8wYrPWA5aJQ+Vb20L1vlX7xu6xiLfymfThjb9BgfJ0JNspGyjUV86qTsjYTD4fXLykSY=
     template:
       - "Build <%{build_url}|%{result}> for %{repository_slug}@%{branch} (<%{compare_url}|%{commit}>)"
+    on_success: change
+    on_failure: always
