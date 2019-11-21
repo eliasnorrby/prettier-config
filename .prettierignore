@@ -2,6 +2,7 @@ dist/
 build/
 coverage/
 node_modules/
+.cache/
 package*.json
 yarn-lock.json
 CHANGELOG.md
