@@ -59,12 +59,14 @@ const prettierconfig = argv.install
 module.exports = {
   ...require("${packageName}"),
   // Override rules here
-};`
+};
+`
   : `\
 module.exports = {
   trailingComma: "all",
   // Add rules here
-}`;
+}
+`;
 
 // Config files to write
 const CONFIG_FILES = {
