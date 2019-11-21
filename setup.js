@@ -39,7 +39,7 @@ const log = {
 const packageName = "@eliasnorrby/prettier-config";
 
 if (!fs.existsSync("package.json")) {
-  console.error(
+  log.error(
     "No package.json found in the current directory. Make sure you are in the project root. If no package.json exists yet, run `npm init` first.",
   );
   process.exit(1);
