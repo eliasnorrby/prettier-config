@@ -1,3 +1,12 @@
+## [2.4.3](https://github.com/eliasnorrby/prettier-config/compare/v2.4.2...v2.4.3) (2019-11-21)
+
+
+### Bug Fixes
+
+* add .cache to prettierignore ([0d1bd67](https://github.com/eliasnorrby/prettier-config/commit/0d1bd671364afca8e900f37a83af78e141e5d880))
+* add missing newlines in config file ([e34cd1d](https://github.com/eliasnorrby/prettier-config/commit/e34cd1d1bb3544be2b8df0d9e3b126de5a3db789))
+* use log.error instead of console.error ([5ddef66](https://github.com/eliasnorrby/prettier-config/commit/5ddef66fd2a63688f12bfbb46c446cd76481d4f3))
+
 ## [2.4.2](https://github.com/eliasnorrby/prettier-config/compare/v2.4.1...v2.4.2) (2019-11-21)
 
 
