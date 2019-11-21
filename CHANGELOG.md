@@ -1,3 +1,10 @@
+## [2.4.2](https://github.com/eliasnorrby/prettier-config/compare/v2.4.1...v2.4.2) (2019-11-21)
+
+
+### Bug Fixes
+
+* **deps:** bump yargs from 14.2.0 to 15.0.2 ([7e6fc2e](https://github.com/eliasnorrby/prettier-config/commit/7e6fc2e6fb29ba0b8000a2889fe49f8529be197e))
+
 ## [2.4.1](https://github.com/eliasnorrby/prettier-config/compare/v2.4.0...v2.4.1) (2019-11-20)
 
 
