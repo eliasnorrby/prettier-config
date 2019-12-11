@@ -27,7 +27,7 @@
   ],
   "repository": "https://github.com/eliasnorrby/prettier-config",
   "author": "Elias Norrby",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@eliasnorrby/commitlint-config": "^2.0.2",
