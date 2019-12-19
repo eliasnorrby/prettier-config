@@ -1,3 +1,10 @@
+## [2.5.1](https://github.com/eliasnorrby/prettier-config/compare/v2.5.0...v2.5.1) (2019-12-19)
+
+
+### Bug Fixes
+
+* wrap installs in try/catch blocks ([5a4b746](https://github.com/eliasnorrby/prettier-config/commit/5a4b746083bdfc331d5d7bbaa6bd3fc6c7b6e718))
+
 # [2.5.0](https://github.com/eliasnorrby/prettier-config/compare/v2.4.4...v2.5.0) (2019-12-19)
 
 
