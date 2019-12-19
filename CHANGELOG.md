@@ -1,3 +1,11 @@
+# [2.5.0](https://github.com/eliasnorrby/prettier-config/compare/v2.4.4...v2.5.0) (2019-12-19)
+
+
+### Features
+
+* add spinner and silence output ([c21b36e](https://github.com/eliasnorrby/prettier-config/commit/c21b36ecefb262f0003b47f94955c2cb1b52c87d))
+* use @eliasnorrby/log-util during setup ([84024b2](https://github.com/eliasnorrby/prettier-config/commit/84024b22f687fdc2d296549abde0b1a03a297fcc))
+
 ## [2.4.4](https://github.com/eliasnorrby/prettier-config/compare/v2.4.3...v2.4.4) (2019-12-13)
 
 
