@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/eliasnorrby/prettier-config/compare/v2.5.1...v2.6.0) (2020-01-02)
+
+
+### Features
+
+* include type annotation in config file ([6da9ad2](https://github.com/eliasnorrby/prettier-config/commit/6da9ad29c9e04529e8d6b11b6dfd01244e43e896))
+
 ## [2.5.1](https://github.com/eliasnorrby/prettier-config/compare/v2.5.0...v2.5.1) (2019-12-19)
 
 
