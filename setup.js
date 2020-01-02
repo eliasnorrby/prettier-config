@@ -47,14 +47,22 @@ const prettierignore = `\
 ${header}
 ${ignoredFiles}`;
 
+const typeAnnotation = `\
+/**
+ * @type { import("prettier").Options }
+ */
+`;
+
 const prettierconfig = argv.install
   ? `\
+${typeAnnotation}
 module.exports = {
   ...require("${packageName}"),
   // Override rules here
 };
 `
   : `\
+${typeAnnotation}
 module.exports = {
   trailingComma: "all",
   // Add rules here
