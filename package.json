@@ -31,7 +31,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@eliasnorrby/commitlint-config": "^2.0.2",
-    "@eliasnorrby/semantic-release-config": "^2.0.0",
+    "@eliasnorrby/semantic-release-config": "^2.2.4",
     "@types/node": "^13.1.0",
     "@types/prettier": "^1.18.2",
     "@types/yargs": "^15.0.0",
