@@ -1,3 +1,16 @@
+# [3.0.0](https://github.com/eliasnorrby/prettier-config/compare/v2.6.1...v3.0.0) (2020-03-06)
+
+
+### Features
+
+* remove semis and use singleQuotes ([41148a5](https://github.com/eliasnorrby/prettier-config/commit/41148a588e512049bb39d2edb241b2111e23d317))
+
+
+### BREAKING CHANGES
+
+* Remove semicolons and use single quotes instead of
+double.
+
 ## [2.6.1](https://github.com/eliasnorrby/prettier-config/compare/v2.6.0...v2.6.1) (2020-01-07)
 
 
