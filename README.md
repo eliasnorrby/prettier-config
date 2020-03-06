@@ -45,7 +45,7 @@ and add the configuration to `prettier.config.js` or `package.json`.
 ### `prettier.config.js`
 
 ```js
-module.exports = require("@eliasnorrby/prettier-config");
+module.exports = require('@eliasnorrby/prettier-config')
 ```
 
 ### `package.json`
@@ -63,7 +63,7 @@ Overriding settings requires the use of a `prettier.config.js` or
 
 ```js
 module.exports = {
-  ...require("@eliasnorrby/prettier-config"),
+  ...require('@eliasnorrby/prettier-config'),
   semi: false,
-};
+}
 ```
