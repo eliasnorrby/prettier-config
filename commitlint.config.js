@@ -1,4 +1,4 @@
 module.exports = {
-  extends: ["@eliasnorrby/commitlint-config"],
+  extends: ['@eliasnorrby/commitlint-config'],
   // Override rules here
-};
+}

@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  trailingComma: "all",
+  trailingComma: 'all',
   semi: false,
   singleQuote: true,
-};
+}
