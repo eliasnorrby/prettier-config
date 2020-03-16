@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/eliasnorrby/prettier-config/compare/v3.0.1...v3.0.2) (2020-03-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @eliasnorrby/log-util from 1.1.0 to 1.1.1 ([7cae0a7](https://github.com/eliasnorrby/prettier-config/commit/7cae0a7b29c4b47fcb79f87dad098f8b0329457f))
+
 ## [3.0.1](https://github.com/eliasnorrby/prettier-config/compare/v3.0.0...v3.0.1) (2020-03-13)
 
 
