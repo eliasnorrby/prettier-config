@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/eliasnorrby/prettier-config/compare/v3.0.2...v3.0.3) (2020-03-17)
+
+
+### Bug Fixes
+
+* **deps:** bump yargs from 15.3.0 to 15.3.1 ([9daa88e](https://github.com/eliasnorrby/prettier-config/commit/9daa88e31f1b943b9ffa2a6c08e08f7c9d0134d1))
+
 ## [3.0.2](https://github.com/eliasnorrby/prettier-config/compare/v3.0.1...v3.0.2) (2020-03-16)
 
 
