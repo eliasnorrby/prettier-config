@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/eliasnorrby/prettier-config/compare/v3.0.3...v3.1.0) (2020-03-30)
+
+
+### Features
+
+* switch trailingComma from 'all' to 'es5' ([aeabb39](https://github.com/eliasnorrby/prettier-config/commit/aeabb39f132ed126500ef1f1a8f1f9e71a132643))
+
 ## [3.0.3](https://github.com/eliasnorrby/prettier-config/compare/v3.0.2...v3.0.3) (2020-03-17)
 
 
