@@ -33,14 +33,14 @@ const packageName = '@eliasnorrby/prettier-config'
 
 if (!fs.existsSync('package.json')) {
   log.fail(
-    'No package.json found in the current directory. Make sure you are in the project root. If no package.json exists yet, run `npm init` first.',
+    'No package.json found in the current directory. Make sure you are in the project root. If no package.json exists yet, run `npm init` first.'
   )
   process.exit(1)
 }
 
 const ignoredFiles = fs.readFileSync(
   path.resolve(__dirname, '.prettierignore'),
-  'utf8',
+  'utf8'
 )
 const header = argv.install ? `# Added by ${packageName}` : ''
 const prettierignore = `\
@@ -127,7 +127,7 @@ const spinner = ora({
   color: 'blue',
 })
 
-const runCommand = async cmd => {
+const runCommand = async (cmd) => {
   try {
     spinner.start()
     await execa.command(cmd)
