@@ -1,3 +1,17 @@
+# [4.0.0](https://github.com/eliasnorrby/prettier-config/compare/v3.1.0...v4.0.0) (2020-03-31)
+
+
+### chore
+
+* bump major version ([8df7af4](https://github.com/eliasnorrby/prettier-config/commit/8df7af4fb30dd13a31b5812f49fc76053ef207cc))
+
+
+### BREAKING CHANGES
+
+* 647c650 introduced a breaking change by bumping the
+major version of prettier. The version of this packages should be
+updated to reflect that.
+
 # [3.1.0](https://github.com/eliasnorrby/prettier-config/compare/v3.0.3...v3.1.0) (2020-03-30)
 
 
