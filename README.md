@@ -9,7 +9,7 @@
 My prettier config. It's very close to the defaults, but enables trailing commas
 to improve git diffs.
 
-:warning: Subject to change in the future.
+:white_check_mark: Updated for prettier v2
 
 # Setup
 
