@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/eliasnorrby/prettier-config/compare/v4.0.0...v4.0.1) (2020-04-08)
+
+
+### Bug Fixes
+
+* **deps:** bump @eliasnorrby/log-util from 1.1.1 to 1.1.2 ([e4a05e7](https://github.com/eliasnorrby/prettier-config/commit/e4a05e7cb2d07d2e35958025a96f5e0659e16b15))
+
 # [4.0.0](https://github.com/eliasnorrby/prettier-config/compare/v3.1.0...v4.0.0) (2020-03-31)
 
 
