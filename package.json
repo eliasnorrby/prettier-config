@@ -32,7 +32,7 @@
     "@commitlint/cli": "^8.2.0",
     "@eliasnorrby/commitlint-config": "^2.3.8",
     "@eliasnorrby/semantic-release-config": "^3.0.0",
-    "@types/node": "^13.1.0",
+    "@types/node": "^14.0.1",
     "@types/prettier": "^2.0.0",
     "@types/yargs": "^15.0.0",
     "husky": "^4.0.10",
