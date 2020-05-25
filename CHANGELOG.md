@@ -1,3 +1,10 @@
+## [4.0.4](https://github.com/eliasnorrby/prettier-config/compare/v4.0.3...v4.0.4) (2020-05-25)
+
+
+### Bug Fixes
+
+* **deps:** bump execa from 4.0.1 to 4.0.2 ([3645c5c](https://github.com/eliasnorrby/prettier-config/commit/3645c5c3965ae0588f1b4624883eded28cde4428))
+
 ## [4.0.3](https://github.com/eliasnorrby/prettier-config/compare/v4.0.2...v4.0.3) (2020-05-11)
 
 
