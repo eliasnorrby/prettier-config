@@ -94,30 +94,10 @@ if (failedToWrite[ignorefilename]) {
   fs.appendFileSync(ignorefilename, '\n' + CONFIG_FILES[ignorefilename], 'utf8')
 }
 
-// Update package.json with scripts for formatting and checking format
-const PRETTIER_FILE_EXTENSIONS = [
-  'js',
-  'jsx',
-  'ts',
-  'tsx',
-  'html',
-  'vue',
-  'css',
-  'less',
-  'scss',
-  'graphql',
-  'yaml',
-  'yml',
-  'json',
-  'md',
-  'mdx',
-]
-
-const targetFilesGlob = `**/*.{${PRETTIER_FILE_EXTENSIONS.join(',')}}`
 const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'))
 pkg.scripts = pkg.scripts || {}
-pkg.scripts['check-format'] = `prettier --list-different '${targetFilesGlob}'`
-pkg.scripts.format = `prettier --write '${targetFilesGlob}'`
+pkg.scripts['format:check'] = 'prettier --check .'
+pkg.scripts.format = 'prettier --write .'
 log.info('Writing scripts to package.json')
 fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2))
 

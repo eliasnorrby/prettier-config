@@ -41,8 +41,8 @@ function common_test {
   echo "format script should exist"
   npm run format
 
-  echo "checkFormat script should exist"
-  npm run check-format
+  echo "format:check script should exist"
+  npm run format:check
 }
 
 function ignore_test {
