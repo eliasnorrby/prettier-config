@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/eliasnorrby/prettier-config/compare/v4.0.4...v4.1.0) (2020-05-28)
+
+
+### Features
+
+* update script names and globs ([885b32f](https://github.com/eliasnorrby/prettier-config/commit/885b32ffff0f707d1fb2f9023abbbd3aa3646e3f))
+
 ## [4.0.4](https://github.com/eliasnorrby/prettier-config/compare/v4.0.3...v4.0.4) (2020-05-25)
 
 
