@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/eliasnorrby/prettier-config/compare/v4.1.0...v4.2.0) (2020-06-10)
+
+
+### Features
+
+* add lib/ to prettierignore ([886e6d0](https://github.com/eliasnorrby/prettier-config/commit/886e6d004591a0cacbb9459a51d4e68817eef25d))
+
 # [4.1.0](https://github.com/eliasnorrby/prettier-config/compare/v4.0.4...v4.1.0) (2020-05-28)
 
 
