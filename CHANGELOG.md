@@ -1,3 +1,10 @@
+## [4.2.2](https://github.com/eliasnorrby/prettier-config/compare/v4.2.1...v4.2.2) (2020-07-07)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm from 6.14.5 to 6.14.6 ([e958a38](https://github.com/eliasnorrby/prettier-config/commit/e958a38c1a697e22bc3054613738abe47632651e))
+
 ## [4.2.1](https://github.com/eliasnorrby/prettier-config/compare/v4.2.0...v4.2.1) (2020-06-11)
 
 
