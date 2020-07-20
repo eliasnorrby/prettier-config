@@ -1,3 +1,10 @@
+## [4.2.7](https://github.com/eliasnorrby/prettier-config/compare/v4.2.6...v4.2.7) (2020-07-20)
+
+
+### Bug Fixes
+
+* **deps:** bump ora from 4.0.4 to 4.0.5 ([6a34996](https://github.com/eliasnorrby/prettier-config/commit/6a34996f656476fddc92e1def51d29cf9628fa7c))
+
 ## [4.2.6](https://github.com/eliasnorrby/prettier-config/compare/v4.2.5...v4.2.6) (2020-07-15)
 
 
