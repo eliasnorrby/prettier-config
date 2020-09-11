@@ -1,3 +1,10 @@
+## [4.2.10](https://github.com/eliasnorrby/prettier-config/compare/v4.2.9...v4.2.10) (2020-09-11)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump node-fetch from 2.6.0 to 2.6.1 ([bb4acb7](https://github.com/eliasnorrby/prettier-config/commit/bb4acb7ccedec25430adce0ff7ec8a3757b1b177))
+
 ## [4.2.9](https://github.com/eliasnorrby/prettier-config/compare/v4.2.8...v4.2.9) (2020-09-07)
 
 
