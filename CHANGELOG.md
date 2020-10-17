@@ -1,3 +1,11 @@
+## [4.2.13](https://github.com/eliasnorrby/prettier-config/compare/v4.2.12...v4.2.13) (2020-10-17)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump lodash from 4.17.14 to 4.17.20 ([d62ae68](https://github.com/eliasnorrby/prettier-config/commit/d62ae68ac38054e9ab1ec96ca725c76d54b13940))
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([33a3337](https://github.com/eliasnorrby/prettier-config/commit/33a333765ab6d92ba744d92b0478b15b17a9fc63))
+
 ## [4.2.12](https://github.com/eliasnorrby/prettier-config/compare/v4.2.11...v4.2.12) (2020-10-01)
 
 
