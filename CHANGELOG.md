@@ -1,3 +1,10 @@
+## [4.2.16](https://github.com/eliasnorrby/prettier-config/compare/v4.2.15...v4.2.16) (2020-10-30)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump npm-user-validate from 1.0.0 to 1.0.1 ([2ee81be](https://github.com/eliasnorrby/prettier-config/commit/2ee81be6c6c864b6faf2c6e7b2ce6e9b2ff0501c))
+
 ## [4.2.15](https://github.com/eliasnorrby/prettier-config/compare/v4.2.14...v4.2.15) (2020-10-23)
 
 
