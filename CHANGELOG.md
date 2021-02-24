@@ -1,3 +1,10 @@
+## [4.2.22](https://github.com/eliasnorrby/prettier-config/compare/v4.2.21...v4.2.22) (2021-02-24)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump ini from 1.3.5 to 1.3.8 ([d635e91](https://github.com/eliasnorrby/prettier-config/commit/d635e915883e48568eec46103558d011395e9f34))
+
 ## [4.2.21](https://github.com/eliasnorrby/prettier-config/compare/v4.2.20...v4.2.21) (2021-02-24)
 
 
