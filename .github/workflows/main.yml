@@ -40,6 +40,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Test
+        run: ./setup.test.sh
+
   release:
     name: Release
     if: github.ref == 'refs/heads/master'
