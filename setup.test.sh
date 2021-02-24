@@ -3,6 +3,8 @@
 
 set -exo pipefail;
 
+export npm_config_yes=true
+
 PI_LINES=$(wc -l .prettierignore | cut -d " " -f1)
 EXPECTED_LINES=$((PI_LINES+1))
 
