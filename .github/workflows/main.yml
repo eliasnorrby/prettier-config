@@ -32,7 +32,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: 12
 
       - name: Install - App
         run: npm ci
