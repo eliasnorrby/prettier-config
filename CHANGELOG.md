@@ -1,3 +1,10 @@
+## [4.2.23](https://github.com/eliasnorrby/prettier-config/compare/v4.2.22...v4.2.23) (2021-02-24)
+
+
+### Bug Fixes
+
+* **deps:** bump yargs from 16.1.1 to 16.2.0 ([60e04ca](https://github.com/eliasnorrby/prettier-config/commit/60e04cab3c806d2fffc5d282349c9623b0d2b5dd))
+
 ## [4.2.22](https://github.com/eliasnorrby/prettier-config/compare/v4.2.21...v4.2.22) (2021-02-24)
 
 
