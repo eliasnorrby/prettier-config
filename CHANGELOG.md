@@ -1,3 +1,10 @@
+## [4.2.26](https://github.com/eliasnorrby/prettier-config/compare/v4.2.25...v4.2.26) (2021-03-29)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump y18n from 4.0.0 to 4.0.1 ([3e6abc3](https://github.com/eliasnorrby/prettier-config/commit/3e6abc309dbb1ccaf2aefc9487b067f7aafd45e1))
+
 ## [4.2.25](https://github.com/eliasnorrby/prettier-config/compare/v4.2.24...v4.2.25) (2021-03-29)
 
 
