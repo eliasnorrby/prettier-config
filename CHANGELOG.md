@@ -1,3 +1,10 @@
+## [4.2.27](https://github.com/eliasnorrby/prettier-config/compare/v4.2.26...v4.2.27) (2021-04-16)
+
+
+### Bug Fixes
+
+* **deps:** [security] bump ssri from 6.0.1 to 6.0.2 ([6534b21](https://github.com/eliasnorrby/prettier-config/commit/6534b21c45ba2a4792511e475018fd2f1da3a25c))
+
 ## [4.2.26](https://github.com/eliasnorrby/prettier-config/compare/v4.2.25...v4.2.26) (2021-03-29)
 
 
