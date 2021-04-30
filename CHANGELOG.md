@@ -1,3 +1,10 @@
+## [4.2.29](https://github.com/eliasnorrby/prettier-config/compare/v4.2.28...v4.2.29) (2021-04-30)
+
+
+### Bug Fixes
+
+* **deps:** bump ora from 5.3.0 to 5.4.0 ([2a9fa92](https://github.com/eliasnorrby/prettier-config/commit/2a9fa929814dc0cd3f6834daf5f8623d71c477f1))
+
 ## [4.2.28](https://github.com/eliasnorrby/prettier-config/compare/v4.2.27...v4.2.28) (2021-04-23)
 
 
