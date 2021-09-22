@@ -1,6 +1,6 @@
 {
   "name": "@eliasnorrby/prettier-config",
-  "version": "4.2.29",
+  "version": "4.2.30",
   "description": "My prettier config",
   "publishConfig": {
     "access": "public"

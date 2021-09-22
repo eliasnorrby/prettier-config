@@ -1,3 +1,11 @@
+## [4.2.30](https://github.com/eliasnorrby/prettier-config/compare/v4.2.29...v4.2.30) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps:** bump all packages ([fd9521e](https://github.com/eliasnorrby/prettier-config/commit/fd9521e3768f23542f1d4bee4f918300f59e97a5))
+* **deps:** npm audit fix ([fe7d651](https://github.com/eliasnorrby/prettier-config/commit/fe7d651cf5135a73e11df48be9241123a8a2c016))
+
 ## [4.2.29](https://github.com/eliasnorrby/prettier-config/compare/v4.2.28...v4.2.29) (2021-04-30)
 
 
